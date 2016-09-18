@@ -1,0 +1,119 @@
+<!DOCTYPE web-app
+ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+<servlet>
+     <servlet-name>PeriodicTable</servlet-name>
+     <servlet-class>PeriodicTable</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PeriodicTable</servlet-name>
+    <url-pattern>/servlet/PeriodicTable</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>ElementList</servlet-name>
+     <servlet-class>ElementList</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ElementList</servlet-name>
+    <url-pattern>/servlet/ElementList</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>GroupList</servlet-name>
+     <servlet-class>GroupList</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>GroupList</servlet-name>
+    <url-pattern>/servlet/GroupList</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>PeriodList</servlet-name>
+     <servlet-class>PeriodList</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PeriodList</servlet-name>
+    <url-pattern>/servlet/PeriodList</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>StateList</servlet-name>
+     <servlet-class>StateList</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>StateList</servlet-name>
+    <url-pattern>/servlet/StateList</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>BlockList</servlet-name>
+     <servlet-class>BlockList</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BlockList</servlet-name>
+    <url-pattern>/servlet/BlockList</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>ClassificationList</servlet-name>
+     <servlet-class>ClassificationList</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ClassificationList</servlet-name>
+    <url-pattern>/servlet/ClassificationList</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>ElementDetails</servlet-name>
+     <servlet-class>ElementDetails</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ElementDetails</servlet-name>
+    <url-pattern>/servlet/ElementDetails</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>BlockDetails</servlet-name>
+     <servlet-class>BlockDetails</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BlockDetails</servlet-name>
+    <url-pattern>/servlet/BlockDetails</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>ClassificationDetails</servlet-name>
+     <servlet-class>ClassificationDetails</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ClassificationDetails</servlet-name>
+    <url-pattern>/servlet/ClassificationDetails</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>GroupDetails</servlet-name>
+     <servlet-class>GroupDetails</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>GroupDetails</servlet-name>
+    <url-pattern>/servlet/GroupDetails</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>PeriodDetails</servlet-name>
+     <servlet-class>PeriodDetails</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PeriodDetails</servlet-name>
+    <url-pattern>/servlet/PeriodDetails</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>StateDetails</servlet-name>
+     <servlet-class>StateDetails</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>StateDetails</servlet-name>
+    <url-pattern>/servlet/StateDetails</url-pattern>
+</servlet-mapping>
+
+</web-app>
